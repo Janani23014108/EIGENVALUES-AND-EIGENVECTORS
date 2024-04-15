@@ -21,8 +21,11 @@ End the program
 ## Program:
 
 import numpy as np
+
 A=np.array([[4,2],[2,4]])
+
 Eigen_Values,Eigen_Vectors=np.linalg.eig(A)
+
 print("Eigen values are",Eigen_Values,"and Eigen Vectors are",Eigen_Vectors)
 
 
